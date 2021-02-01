@@ -1,0 +1,28 @@
+{
+    "name": "huhushow/cron_duration",
+    "description": "Cron expression with duration",
+    "version": "0.0.1",
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "Henry Park",
+            "email": "huhushow@gmail.com"
+        }
+    ],
+    "require": {
+        "dragonmantank/cron-expression": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Huhushow\\CronDuration\\" : "src"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "Huhushow\\CronDuration\\Test\\" : "tests"
+    }
+}
